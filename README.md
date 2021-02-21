@@ -48,7 +48,7 @@ A simple [lamina project](https://api-tools.getlaminas.org/) demonstrating all R
 
 This repository is just an example about using the HATEOAS (Hypermedia as the Engine of Application State) from REST's implementation and also Method and Content negotiation. 
 
-There is an postman collection [here](./communication/lamina-example/docs/collection.json) that can be used as example
+There is an postman collection [here](./communication/lamina-example/docs/collection.json) that can be used as example.
 
 ---
 
@@ -61,3 +61,11 @@ This repo contains docker usage examples.
 This folder contains a Dockerfile which uses nginx's alpine version and override the default nginx's page.
 
 I built this Dockerfile to understand how to create and publish an image on Dockerhub.
+
+### laravel-example
+
+A Dockerfile example demonstrating how to use Laravel on Dockerfile and also publishing an image based on Laravel.
+
+### node-example
+
+A Dockerfile example demonstrating how use NodeJS on Docker and publishing an image copying local files to the image during the build time.

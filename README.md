@@ -1,10 +1,10 @@
-# Fullcycle 2.0 by code.education
+# Full Cycle 2.0 by code.education
 
 My monorepo including all "mini projects" from Fullcycle's course.
 
 ## Introduction
 
-In January of 2021 I bought the Fullcycle 2.0 course from [code.education](https://code.education/). During this course we had many examples about using Docker, Kubernetes, Go, PHP (Laravel), Python and NodeJS. So, I decided to create this repo and keep all examples taught at the course.
+In January of 2021 I bought the Full Cycle 2.0 course from [code.education](https://code.education/). During this course we had many examples about using Docker, Kubernetes, Go, PHP (Laravel), Python and NodeJS. So, I decided to create this repo and keep all examples taught at the course.
 
 ---
 
@@ -65,6 +65,10 @@ I built this Dockerfile to understand how to create and publish an image on Dock
 ### laravel-example
 
 A Dockerfile example demonstrating how to use Laravel on Dockerfile and also publishing an image based on Laravel.
+
+### nginx-laravel
+
+A Dockerfile example demonstrating how to use nginx on Dockerfile.
 
 ### node-example
 

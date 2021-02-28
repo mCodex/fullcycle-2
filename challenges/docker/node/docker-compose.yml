@@ -10,8 +10,8 @@ services:
     command: yarn start:prod
     networks: 
       - node-network
-    ports: 
-      - "3000:3000"
+    # ports: 
+    #   - "3000:3000"
     depends_on: 
       - db
       

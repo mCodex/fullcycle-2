@@ -8,9 +8,15 @@ In January of 2021 I bought the Full Cycle 2.0 course from [code.education](http
 
 ---
 
+## 🏆 Challenges
+
+In this folder there are all course's challenges. Every project inside this folder has a detailed README explaining about each challenge.
+
+---
+
 ## 🗣 Communication
 
-In this repo we studied REST, gRPC and GraphQL concepts.
+In this folder we studied REST, gRPC and GraphQL concepts.
 
 ### grpc-example
  
@@ -46,7 +52,7 @@ A simple [lamina project](https://api-tools.getlaminas.org/) demonstrating all R
 
 #### Description
 
-This repository is just an example about using the HATEOAS (Hypermedia as the Engine of Application State) from REST's implementation and also Method and Content negotiation. 
+This folder is just an example about using the HATEOAS (Hypermedia as the Engine of Application State) from REST's implementation and also Method and Content negotiation. 
 
 There is an postman collection [here](./communication/lamina-example/docs/collection.json) that can be used as example.
 
@@ -54,7 +60,7 @@ There is an postman collection [here](./communication/lamina-example/docs/collec
 
 ## 🐬 Docker
 
-This repo contains docker usage examples.
+This folder contains docker usage examples.
 
 ### docker-example
 

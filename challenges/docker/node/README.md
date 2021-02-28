@@ -8,7 +8,7 @@ We needed to create a project which uses NodeJS + MySQL + nginx and docker-compo
 
 I created a MVC using Nestjs + Handlebars + TypeORM which adds a new user on MySQL database when opening home page. I decided to use NestJS + TypeORM only to try NestJS on Docker environment and learn how it handles a MVC project.
 
-However, I didn't use any patterns like DDD, Migrations or Repository pattern because the main goal was to serve the application using nginx.
+However, I didn't use any patterns like DDD, Migrations or Custom Repository pattern because the main goal was to serve the application using nginx.
 
 ## 🛠 Installation
 

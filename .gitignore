@@ -1,3 +1,5 @@
 *pb* 
 *node_modules*
+
 *dbdata*
+!.gitkeep

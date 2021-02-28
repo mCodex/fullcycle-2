@@ -1,12 +1,40 @@
 # NodeJS + Nginx Challenge
 
-## Installation
+## 🏆 About the challenge
+
+We needed to create a project which uses NodeJS + MySQL + nginx and docker-compose to list users that are created on MySQL database. Plus, those users must be created while accessing the home page. The home page must be served by nginx.
+
+## 📝 My Solution
+
+I created a MVC using Nestjs + Handlebars + TypeORM which adds a new user on MySQL database when opening home page. I decided to use NestJS + TypeORM only to try NestJS on Docker environment and learn how it handles a MVC project.
+
+However, I didn't use any patterns like DDD, Migrations or Repository pattern because the main goal was to serve the application using nginx.
+
+## 🛠 Installation
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+---
+## "Production"
+
+Make sure that you have docker installed and running then:
+
+```bash
+docker-compose up -d
+```
+
+PS: It will take awhile to finish building the app.
+
+Then, open:
+
+http://localhost:8080
+
+---
+## Development
+
+### Running the app
 
 ```bash
 # development
@@ -19,7 +47,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests

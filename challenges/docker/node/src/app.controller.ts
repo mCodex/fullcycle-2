@@ -13,9 +13,7 @@ export class AppController {
     await this.appService.create();
 
     const users = await this.appService.findAll();
-
-    console.log(users);
     
-    return { message: 'Hello world!' };
+    return { users};
   }
 }

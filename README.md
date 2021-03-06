@@ -84,6 +84,14 @@ A Dockerfile example demonstrating how use NodeJS on Docker and publishing an im
 
 ## 🔑 Keycloak 
 
+## goclient
+
+An app using Go + go-oidc to demontrate how keycloak authentication/authorization works.
+
+
+## keycloak-theme
+
+An example using MySQL + Keycloak + Docker-compose demontrating how to use volumes to expose a keycloak's custom theme
 
 ---
 

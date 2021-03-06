@@ -79,3 +79,14 @@ A Dockerfile example demonstrating how to use nginx on Dockerfile.
 ### node-example
 
 A Dockerfile example demonstrating how use NodeJS on Docker and publishing an image copying local files to the image during the build time.
+
+---
+
+## 🔑 Keycloak 
+
+
+---
+
+## 🐰 RabbitMQ
+
+A docker-compose file containing RabbitMQ Management used only to demonstrate how to configure queues, exchanges and messages.
